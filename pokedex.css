@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #f1f1f1;
+}
+h1 {
+    text-align: center;
+    
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: 920px) {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+  @media only screen and (max-width: 568px) {
+    grid-template-columns:1fr;
+
+  }
+
+
+
+}
+.cardList {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+
+  p {
+    font-weight: bold;
+  }
+
+  > h2 {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: beige;
+
+  }
+
+}
+
