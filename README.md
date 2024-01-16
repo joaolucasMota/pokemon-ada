@@ -1,3 +1,3 @@
 # Lista-Pok-mom
 
-Atividade desenvolvida durante aulas da turma da Ada Tech na disciplina de Front-End dinâmico.
+Atividade de manipulação de uma Api, para a criação de uma lista de pokémoms, desenvolvida durante aulas da turma da Ada Tech na disciplina de Front-End dinâmico.
