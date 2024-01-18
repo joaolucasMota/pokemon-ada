@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Api Pokémom</title>
-    <link rel="stylesheet" href="./pokedex.css" />
-  </head>
-  <body>
-    <h1>Pokémom List</h1>
-    <div id="lista" class="container"></div>
-    <script src="./script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Api Pokémom</title>
+  <link rel="stylesheet" href="./pokedex.css" />
+</head>
+
+<body>
+  <h1>Pokémom List</h1>
+
+  <div class="filtro">
+    <label for=""> Filtrar por tipo: </label>
+    <select name="tipoDeFiltro" id="selectId">   </select>
+    <button id="buscarButton">Buscar</button>
+  </div>
+
+  <div id="lista" class="container"></div>
+
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
