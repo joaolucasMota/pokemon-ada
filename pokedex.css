@@ -13,10 +13,11 @@ h1 {
 .container {
   max-width: 75rem;
   margin: 0 auto;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
+
   @media only screen and (max-width: 920px) {
     grid-template-columns: repeat(2, 1fr);
 
@@ -29,6 +30,7 @@ h1 {
 
 
 }
+
 .cardList {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   background-color: rgb(255, 255, 255);
